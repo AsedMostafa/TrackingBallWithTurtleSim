@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtle" />
+    <node pkg="mini_two" type="makeTurtleMove.py" name="makeTurtleMove"/>
+    <node pkg="mini_two" type="getBallCenter.py" name="ballCenter"/>
+</launch>
